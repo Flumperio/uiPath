@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Firefox Add-ons Manager",
+  "Type": "Screen",
+  "Id": "i3U-fzWsY0y0sj20-rhO9Q",
+  "Reference": "Eo72eDW9GUigTJbV0FRXaw/i3U-fzWsY0y0sj20-rhO9Q",
+  "ParentRef": "Eo72eDW9GUigTJbV0FRXaw/MG5o6jM2JEOAiKvdOzNPqQ",
+  "Created": "2025-03-28T12:32:52.4873721Z",
+  "Updated": "2025-03-28T12:32:52.4873721Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

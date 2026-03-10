@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Firefox Add-ons Manager",
+  "Type": "App",
+  "Id": "7oWkmwaOZku6azSdRQtSPw",
+  "Reference": "Eo72eDW9GUigTJbV0FRXaw/7oWkmwaOZku6azSdRQtSPw",
+  "Created": "2025-03-28T12:32:52.2879884Z",
+  "Updated": "2025-03-28T12:32:52.2879884Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
