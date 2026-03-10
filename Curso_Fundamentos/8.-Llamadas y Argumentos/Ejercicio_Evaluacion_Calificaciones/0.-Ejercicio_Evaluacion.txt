@@ -1,0 +1,9 @@
+﻿Ejercicio: Evaluación de Calificaciones 📌 Objetivo: Desarrollar un flujo en UiPath que solicite calificaciones de estudiantes, calcule su promedio y los evalúe según su rendimiento.
+ 
+📌 Reglas del sistema:
+ 
+Solicitar 5 calificaciones al usuario y almacenarlas en una lista. Si alguna calificación es 0, lanzar una excepción de sistema (error de entrada inválida). Calcular el promedio de las calificaciones ingresadas y redondearlo con Math.Round(). Evaluar el promedio: Si es menor a 50, lanzar una excepción de negocio ("Reprobado, necesita mejorar"). Si es 50 o más, mostrar un mensaje de aprobación. 📌 Modularización: 1️⃣ SolicitarNumeros.xaml → Solicita las calificaciones al usuario y las almacena en una lista. 2️⃣ CalcularPromedio.xaml → Calcula y redondea el promedio. Lanza una excepción de sistema si hay un 0. 3️⃣ EvaluarPromedio.xaml → Evalúa si el promedio es menor a 50 (excepción de negocio) o lo aprueba.
+ 
+📌 Salida esperada:
+ 
+Si todas las calificaciones son válidas: Muestra el promedio y el mensaje de aprobación. Si alguna calificación es 0: Error de sistema. Si el promedio es menor de 50: Excepción de negocio. 🎯 Objetivo del ejercicio: Aplicar modularización, excepciones y manejo de datos en UiPath. 🚀

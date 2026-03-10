@@ -1,0 +1,261 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Ejercicios_Cadenas_Numericas_Extra" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Ejercicios_Cadenas_Numericas_Extra_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:utat="clr-namespace:UiPath.Testing.Activities.TestData;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.Testing.Activities.TestData</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Ejercicios_Cadenas_Numericas_Extra" sap:VirtualizedContainerService.HintSize="1630,3774" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Ejercicio 1" sap:VirtualizedContainerService.HintSize="513,2197" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="str_Message1" />
+        <Variable x:TypeArguments="x:String" Name="str_Message2" />
+        <Variable x:TypeArguments="x:String" Name="str_Message3" />
+        <Variable x:TypeArguments="x:String" Name="str_Message4" />
+        <Variable x:TypeArguments="x:String" Name="str_Message5" />
+        <Variable x:TypeArguments="x:String" Name="str_Message6" />
+        <Variable x:TypeArguments="s:String[]" Name="arr_Colores" />
+        <Variable x:TypeArguments="x:Int32" Name="int_indexOF" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:Comment sap:VirtualizedContainerService.HintSize="479,545" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Ejercicios funciones de cadenas&#xD;&#xA;&#xD;&#xA;1. Elimina espacios en los extremos Dada la cadena &quot; Hola Mundo &quot; y muestra el resultado.&#xD;&#xA;&#xD;&#xA;2. Dada la cadena &quot;uipath&quot;, convierte todo el texto a mayúsculas y luego a minúsculas.&#xD;&#xA;&#xD;&#xA;3. Ejercicio 3: Extrae los 4 primeros caracteres de la cadena &quot;Automatización&quot;.&#xD;&#xA;&#xD;&#xA;4. Ejercicio 4: Extrae los 4 últimos caracteres de la cadena &quot;Automatización&quot;.&#xD;&#xA;&#xD;&#xA;5. Dada la cadena &quot;Hola UiPath&quot;, reemplaza &quot;UiPath&quot; por &quot;Mundo&quot; para que el resultado sea &quot;Hola Mundo&quot;.&#xD;&#xA;&#xD;&#xA;6. Dada la cadena &quot;rojo,azul,verde,amarillo&quot;, usa Split para separarla en un array de palabras.&#xD;&#xA;&#xD;&#xA;7. Dada la cadena &quot;Bienvenido a UiPath&quot;, usa IndexOf para encontrar la posición de la palabra &quot;UiPath&quot;." />
+      <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="479,303" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+        <ui:MultipleAssign.AssignOperations>
+          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[str_Message1]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String" xml:space="preserve">  Hola Mundo  </InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[str_Message2]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">uipath</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[str_Message3]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">Automatización</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[str_Message4]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">Hola UiPath</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[str_Message5]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">rojo,azul,verde,amarillo</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[str_Message6]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">Bienvenido a UiPath</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+          </scg:List>
+        </ui:MultipleAssign.AssignOperations>
+      </ui:MultipleAssign>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;La variable str_Message1 contiene: &quot; + str_Message1 + &#xD;&#xA;vbCrLf + &#xD;&#xA;&quot;Eliminamos los espacios de los extremos: &quot; + Trim(str_Message1) + &#xD;&#xA;vbCrLf]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,173" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;La variable str_Message2 contiene: &quot; + str_Message2 + &#xD;&#xA;vbCrLf + &#xD;&#xA;&quot;Convertimos todo a Mayúsculas: &quot; + str_Message2.ToUpper + &#xD;&#xA;vbCrLf + &#xD;&#xA;&quot;Convertimos todo a Minúsculas: &quot; + str_Message2.ToLower + &#xD;&#xA;vbCrLf]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,173" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;La variable str_Message3 contiene: &quot; + str_Message3 + &#xD;&#xA;vbCrLf + &#xD;&#xA;&quot;Los 4 primeros caracteres de la cadena son: &quot; + Left(str_Message3, 4) + &#xD;&#xA;vbCrLf + &#xD;&#xA;&quot;Los 4 últimos caracteres de la cadena son: &quot; + Right(str_Message3, 4) + &#xD;&#xA;vbCrLf]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,173" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;La variable str_Message4 contiene: &quot; + str_Message4 + &#xD;&#xA;vbCrLf + &#xD;&#xA;&quot;Sustituimos uiPAth por Mundo: &quot; + str_Message4.Replace(&quot;UiPath&quot;, &quot;Mundo&quot;) +&#x9;&#xD;&#xA;vbCrLf]" />
+      <Assign DisplayName="Assign de String a Arrays" sap:VirtualizedContainerService.HintSize="479,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+        <Assign.To>
+          <OutArgument x:TypeArguments="s:String[]">[arr_Colores]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="s:String[]">[str_Message5.Split(",")]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,173" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;La variable str_Message5 contiene: &quot; + str_Message5 + &#xD;&#xA;vbCrLf + &#xD;&#xA;&quot;Creamos un array con la cadena: &quot; + String.Join(vbCrLf, arr_Colores) + &#xD;&#xA;vbCrLf]" />
+      <Assign sap:VirtualizedContainerService.HintSize="479,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[int_indexOF]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">[str_Message6.IndexOf("UiPath")]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,164" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;La variable str_Message6 contiene: &quot; + str_Message6 + &#xD;&#xA;vbCrLf + &#xD;&#xA;&quot;La posición de inicio de la palabra UiPAth es: &quot; + int_indexOF.ToString + &#xD;&#xA;vbCrLf]" />
+    </Sequence>
+    <Sequence DisplayName="Ejercicio 2" sap:VirtualizedContainerService.HintSize="513,1259" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:Double" Name="int_rnd_Num1" />
+        <Variable x:TypeArguments="x:Double" Name="int_rnd_Num2" />
+        <Variable x:TypeArguments="x:Double" Name="int_Num3" />
+        <Variable x:TypeArguments="s:Double[]" Name="arr_Nums" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:Comment sap:VirtualizedContainerService.HintSize="479,376" sap2010:WorkflowViewState.IdRef="Comment_2" Text="Ejercicios funciones numéricas&#xD;&#xA;&#xD;&#xA;1. Genera dos números aleatorios entre 1 y 100. Luego determina el número más grande.&#xD;&#xA;&#xD;&#xA;2. Tengo el número 25.4728:&#xD;&#xA;&#xD;&#xA;a. Redondea para obtener 25.5&#xD;&#xA;&#xD;&#xA;b. Redondea para obtener 25.473&#xD;&#xA;&#xD;&#xA;c. Redondea para obtener el 25&#xD;&#xA;&#xD;&#xA;Crea un array añadiendo los resultados de redondear y determina el número más pequeño." />
+      <utat:RandomNumber Decimals="0" DisplayName="Random Number" sap:VirtualizedContainerService.HintSize="479,224" sap2010:WorkflowViewState.IdRef="RandomNumber_1" Max="100" Min="1" Output="[int_rnd_Num1]" />
+      <utat:RandomNumber Decimals="0" DisplayName="Random Number" sap:VirtualizedContainerService.HintSize="479,224" sap2010:WorkflowViewState.IdRef="RandomNumber_2" Max="100" Min="1" Output="[int_rnd_Num2]" />
+      <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="479,179" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+        <ui:MultipleAssign.AssignOperations>
+          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:Double">[int_Num3]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:Double">25.4728</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="s:Double[]">[arr_Nums]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="s:Double[]" xml:space="preserve">[{ Math.Round(int_Num3, 1),
+Math.Round(int_Num3, 3),
+Math.Round(int_Num3, 0)
+}]</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+          </scg:List>
+        </ui:MultipleAssign.AssignOperations>
+      </ui:MultipleAssign>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,164" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;La variable int_rnd_Num1: &quot; + int_rnd_Num1.ToString +&#xD;&#xA;vbCrLf + &#xD;&#xA;&quot;La variable int_rnd_Num2: &quot; + int_rnd_Num2.ToString +&#xD;&#xA;vbCrLf + &#xD;&#xA;&quot;La variable int_Num3: &quot; + int_Num3.ToString +&#xD;&#xA;vbCrLf + &#xD;&#xA;&quot;La variable int_Num3 redondeada con 1 decimales: &quot; + arr_Nums(0).ToString +&#xD;&#xA;vbCrLf + &#xD;&#xA;&quot;La variable int_Num3 redondeada con 3 decimales: &quot; + arr_Nums(1).ToString +&#xD;&#xA;vbCrLf + &#xD;&#xA;&quot;La variable int_Num3 redondeada con 0 decimales: &quot; + arr_Nums(2).ToString +&#xD;&#xA;vbCrLf +&#xD;&#xA;&quot;El valor mínimo del array arr_Nums: &quot; + arr_Nums.Min.ToString]" />
+    </Sequence>
+    <Sequence DisplayName="Ejercicio3" sap:VirtualizedContainerService.HintSize="468,1325" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:Double" Name="dou_RND_Number" />
+        <Variable x:TypeArguments="s:Int32[]" Name="arr_Valores_Numericos" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:Comment sap:VirtualizedContainerService.HintSize="434,221" sap2010:WorkflowViewState.IdRef="Comment_3" Text="1. Utiliza la actividad Input Dialog para guardar dos valores de tipo Int32. &#xD;&#xA;Esta actividad va a permitir al usuario introducir los valores en una ventana emergente. &#xD;&#xA;Luego, calcular el máximo y el mínimo y obtener un número aleatorio que esté entre los dos." />
+      <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_3">
+        <Assign.To>
+          <OutArgument x:TypeArguments="s:Int32[]">[arr_Valores_Numericos]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="s:Int32[]">[{0, 0}]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="434,271" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Inroduce un valor numérico sin decimales" Title="Valor 1">
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:Int32">[arr_Valores_Numericos(0)]</OutArgument>
+        </ui:InputDialog.Result>
+      </ui:InputDialog>
+      <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="434,271" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Inroduce un valor numérico sin decimales" Title="Valor 2">
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:Int32">[arr_Valores_Numericos(1)]</OutArgument>
+        </ui:InputDialog.Result>
+      </ui:InputDialog>
+      <utat:RandomNumber Decimals="{x:Null}" DisplayName="Random Number" sap:VirtualizedContainerService.HintSize="434,224" sap2010:WorkflowViewState.IdRef="RandomNumber_3" Max="[arr_Valores_Numericos.Max]" Min="[arr_Valores_Numericos.Min]" Output="[dou_RND_Number]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;El valor máximo introducido es: &quot; + arr_Valores_Numericos.Max.ToString +&#xD;&#xA;vbCrLf +&#xD;&#xA;&quot;El valor mínimo introducido es: &quot; + arr_Valores_Numericos.Min.ToString +&#xD;&#xA;vbCrLf +&#xD;&#xA;&quot;Un valor aleatorio entre los dos números es: &quot; + Math.Round(dou_RND_Number,0).ToString]" />
+    </Sequence>
+  </Sequence>
+</Activity>
