@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ouANdwPJMkmtoeFiYXw6Dw" Reference="GcvmgPhY90Kx3uqusteyNg/Srr7CpysD0aOVsODtxz3hw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com" CVScreenId="e4a99570-61b3-4605-99fc-85f73150004a" CvElementArea="458, 675, 205, 49" CvTextArea="536, 691, 68, 16" CvTextArgument="Invoices" CvType="Button" DesignTimeRectangle="461, 677, 200, 46" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='                  Invoices' parentid='dashmenu' tag='BUTTON' /&gt;" Guid="6e56fd89-0a71-4dea-a28d-707a341f62ac" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e4a99570-61b3-4605-99fc-85f73150004a" CvElementArea="389, 240, 1138, 37" CvType="InputBox" DesignTimeRectangle="447, 250, 86, 20" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl isleaf='1' tag='LI' type='' class='breadcrumb-item active' aaname='Dashboard' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Dashboard' /&gt;" Guid="66c4a447-6b8f-49fa-b6c5-b266a51e8afc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5ede7e70922ecbf089e4e80f8705497e.png" xmlns="">0yae5H3mpZE-F3urDSZvq5w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

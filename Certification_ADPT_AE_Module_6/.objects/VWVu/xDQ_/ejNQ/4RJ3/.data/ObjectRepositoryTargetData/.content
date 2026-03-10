@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Tmq_qUxsBkyw8aZJsWaEWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="190f72d2-bd2f-45b7-bc5a-18a9c9174b3c" CvTextArea="17, 58, 66, 12" CvTextArgument="SAS1:SCS101" CvType="Text" DesignTimeRectangle="14, 54, 200, 21" FullSelectorArgument="&lt;uia cls='NetUIRefedit' name='Where is the data for your table?' /&gt;" Guid="77bbd827-7823-460e-ae68-3e23ffa3b2be" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='NUIDialog' title='Create Table' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="ae0c23691074d9d0d43122fc272b3692.png" xmlns="">0DimrKc1se02FGZG6Wmwuaw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

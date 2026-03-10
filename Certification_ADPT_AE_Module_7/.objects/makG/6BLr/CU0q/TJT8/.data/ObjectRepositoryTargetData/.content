@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RnIDWbNsEUuOI882CG5pcA" Reference="GcvmgPhY90Kx3uqusteyNg/TJT8ZnvzdEmJtTuh5nW2mQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/invoices/search-by-number/666956" CVScreenId="d6beeca4-328c-437b-9c44-0ae1b4911d39" CvElementArea="399, 241, 1139, 37" CvType="InputBox" DesignTimeRectangle="472, 252, 51, 16" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Invoices' tag='A' /&gt;" Guid="7d9bf5f7-59d4-438a-9fa3-984d0ece0dd9" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Search Results' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d6beeca4-328c-437b-9c44-0ae1b4911d39" CvElementArea="399, 241, 1139, 37" CvType="InputBox" DesignTimeRectangle="413, 252, 37, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Home' href='https://acme-test.uipath.com/home' tag='A' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:href='fuzzy' fuzzylevel:href='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Home' /&gt;" Guid="db984e25-7d1d-4eba-bc3a-475bcc97a41a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="aa1d7c8f60131c802aaed7f7c0a62ca9.png" xmlns="">0G9kFOqNtGkCj6Mm2uveA4A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

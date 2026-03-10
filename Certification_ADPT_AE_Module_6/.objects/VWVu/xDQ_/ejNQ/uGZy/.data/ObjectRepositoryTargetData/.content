@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CUvCOCOo3U6NWOl4OTaRjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8daff7e4-2b3f-4589-9a83-df73c646116d" CvElementArea="13, 78, 14, 14" CvTextArea="32, 80, 111, 13" CvTextArgument="My table has headers" CvType="CheckBox" DesignTimeRectangle="14, 78, 131, 16" ElementType="CheckBox" FullSelectorArgument="&lt;uia cls='NetUICheckbox' name='My table has headers' /&gt;" Guid="176b54eb-7bb6-4ec0-8abc-bea69062026b" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='NUIDialog' title='Create Table' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="289518d0ed1ba2a47510c76318c63c81.png" xmlns="">0lkbtjs01b0aLy4KvsDitzA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

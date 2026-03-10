@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Login ACME",
+  "Type": "App",
+  "Id": "makGhGNWuE2clSHxCMQUZg",
+  "Reference": "GcvmgPhY90Kx3uqusteyNg/makGhGNWuE2clSHxCMQUZg",
+  "Created": "2025-06-03T09:44:28.1689122Z",
+  "Updated": "2025-06-03T09:44:28.1689122Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
